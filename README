@@ -1,0 +1,6 @@
+This project builds two app bundles, one with NSHighResolutionCapable set to true,
+and the other set to false. On a retina display, the high resolution application
+will open a 400x300 sized window, rather than an 800x600 sized window that the
+non-high resolution application will open. This shows how in SFML on Mac, window
+dimensions use physical "pixel space" coordinates rather than virtual "screen space"
+coordinates.
